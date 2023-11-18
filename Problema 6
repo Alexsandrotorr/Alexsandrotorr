@@ -1,0 +1,15 @@
+import son
+# Se crea un objeto de muestra, para serializar.
+Original=[ ['correo* , 'nombre', 'telefono'], [luna@gmail.com', 'sofia', '8123232323'], ['lopez@gmail.com', 'Maria', '5545454545'1, [josue@homail.com', 'alondra', '4490909090']
+print("›› Tipo del objeto. \n")
+print(type(Original))
+print("\n›› Contenido del objeto. \n")
+print(Original)
+print("\n›› Serialización a JSON. \n")
+original_JSON-json.dumps (Original, indent=4) print (Original JSON)
+print("'n>› Deserialización desde JSON. \n")
+Nueva Lista=json.loads (Original JSON)
+print (Nueva Lista)
+print (type (Nueva Lista))
+print ("\n>› Comprobando igualdad de objetos. \n")
+print (Original=-Nueva _Lista)
