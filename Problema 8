@@ -1,0 +1,8 @@
+Entradas =[
+   • [ 'correo', 'nombre', 'telefono'],
+     [*juan@gmail.com''Juan'4490909090']
+     [maria@gmail.com'•'Maria''5545454545']
+     [diana@gmail.com'Diana'8123232323'],
+     
+    Print(">>contenido de la lista/n")
+    print(Entradas)
